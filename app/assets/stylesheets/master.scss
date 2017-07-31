@@ -9,11 +9,12 @@ html, body {
   overflow-x: hidden; 
 }
 
-.content {
-  @media screen and (max-width: 1080px) and (max-height: 2560){
-    margin-top: 30%;
+body{  
+  @media screen and (max-width: 1080px) and (max-height: 500px){
+    margin-top: 250px;
   }
 }
+
 .logo {
   margin-top: 30px;
   margin-left: 30px;
