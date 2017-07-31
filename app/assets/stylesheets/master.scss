@@ -10,7 +10,9 @@ html, body {
 }
 
 .content {
-  @media and screen(max-height: 2560) {margin-top: 25%;}
+  @media screen and (max-height: 2560){
+    margin-top: 25%;
+  }
 }
 .logo {
   margin-top: 30px;
@@ -42,4 +44,7 @@ input[type=submit] {
   width:160px;
   border-radius: 50px;
   -moz-border-radius: 50px;
+}
+input[type=submit]:hover {
+  background-color: #ff6600;
 }
