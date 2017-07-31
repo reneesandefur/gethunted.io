@@ -10,7 +10,7 @@ html, body {
 }
 
 body{  
-  @media screen and (max-width: 1080px) and (max-height: 500px){
+  @media screen and (max-width: 1440px) and (max-height: 2560px){
     margin-top: 50px;
   }
 }
@@ -18,7 +18,7 @@ body{
 .logo {
   margin-top: 30px;
   margin-left: 30px;
-    @media screen and (min-width: 220px) and (max-width: 1080px) and (max-height: 500px){
+    @media screen and (min-width: 220px) and (max-width: 1440px) and (max-height: 2560px){
     width: 75%;
     margin-left: 12.5%;
   }
@@ -35,9 +35,9 @@ body{
   text-shadow: 0 0 3px #ffffff;
   font-weight: 700;
   text-align: center;
-    @media screen and (max-width: 1080px) and (max-height: 500px){
+    @media screen and (max-width: 1440px) and (max-height: 2560px){
     text-align: center;
-    font-size: 20px !important;
+    font-size: 30px !important;
   }
 }
 
@@ -46,9 +46,9 @@ body{
   text-shadow: 0 0 3px #ffffff;
   font-weight: 700;
   text-align: center;
-    @media screen and (max-width: 1080px) and (max-height: 500px){
+    @media screen and (max-width: 1440px) and (max-height: 2560px){
     text-align: center;
-    font-size: 12px !important;
+    font-size: 20px !important;
   }
 }
 input[type=text], select {
@@ -56,7 +56,7 @@ input[type=text], select {
   border-radius: 10px;
   width: 60%;
   height: 70px;
-    @media screen and (max-width: 1080px) and (max-height: 500px){
+    @media screen and (max-width: 1440px) and (max-height: 2560px){
     width: 80%;
     }
 }
@@ -64,7 +64,7 @@ input[placeholder] {
   text-align: center;
   font-family: 'Kalam', cursive;
   font-size: 35px;
-    @media screen and (max-width: 1080px) and (max-height: 500px){
+    @media screen and (max-width: 1440px) and (max-height: 2560px){
     font-size: 8px;
     }
 }
