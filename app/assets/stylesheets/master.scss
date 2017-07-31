@@ -18,25 +18,55 @@ body{
 .logo {
   margin-top: 30px;
   margin-left: 30px;
+    @media screen and (max-width: 1080px) and (max-height: 500px){
+    margin-top: 10px;
+    margin-left: 5px;
+  }
 }
 .value {
   margin-top: 75px;
   color: #000000;
-  font-size: 25px;
   text-shadow: 0 0 3px #ffffff;
   font-weight: 700;
   text-align: center;
+}
+.prop {   
+  color: #000000;
+  text-shadow: 0 0 3px #ffffff;
+  font-weight: 700;
+  text-align: center;
+    @media screen and (max-width: 1080px) and (max-height: 500px){
+    text-align: center;
+    font-size: 20px !important;
+  }
+}
+
+.subprop {   
+  color: #000000;
+  text-shadow: 0 0 3px #ffffff;
+  font-weight: 700;
+  text-align: center;
+    @media screen and (max-width: 1080px) and (max-height: 500px){
+    text-align: center;
+    font-size: 12px !important;
+  }
 }
 input[type=text], select {
   border: 1px solid #ff6600;
   border-radius: 10px;
   width: 60%;
   height: 70px;
+    @media screen and (max-width: 1080px) and (max-height: 500px){
+    width: 80%;
+    }
 }
 input[placeholder] {
   text-align: center;
   font-family: 'Kalam', cursive;
   font-size: 35px;
+    @media screen and (max-width: 1080px) and (max-height: 500px){
+    font-size: 15px;
+    }
 }
 input[type=submit] {
   color: #ffffff;
