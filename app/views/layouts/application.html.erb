@@ -10,6 +10,17 @@
   </head>
 
   <body>
+    <br />  
+    <% if flash[:error].present? %>
+      <div class="col-10 offset-1 alert alert-danger">
+        <%= flash[:error].html_safe %>
+      </div>  
+    <% elsif flash[:success].present? %>
+      <div class="col-10 offset-1">
+        <%= flash[:success].html_safe %>
+      </div>
+    <% end %>
+    
     <%= yield %>
   </body>
 </html>

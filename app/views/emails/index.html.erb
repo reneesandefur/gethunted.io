@@ -8,12 +8,9 @@
     <hr />
     <p class="sub-prop">Be the first to know when we go live</p>
     <br />
-  <form action="mailto: getproducthunted@gmail.com" method="post" enctype="text/plain">
-    <input type="text" placeholder="i.m.awesome@somemail.com" class="col-xs-8">
-    <br />
-    <br />
-    <input type="submit" value="Submit Email" class="btn btn-static-secondary">
-    <br />
-  </form>
+    <%= simple_form_for @email do |f| %>
+      <%= f.input :address, placeholder: 'i.m.awesome@somemail.com' %>
+      <%= f.submit 'Submit Email' %>
+    <% end %>
   </div>
 </div>
