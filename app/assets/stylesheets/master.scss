@@ -95,3 +95,36 @@ input[type=submit]:hover {
 label {
   display: none;
 }
+
+.hero {
+  border-top: 2px solid #d3d3d3;
+  border-bottom: 2px solid #d3d3d3;
+  background-color: #efefef;
+  padding-top: 0;
+  padding-bottom: 30px;
+  padding-left: 20%;
+}
+.gethunted {
+  margin-left: 5px;
+  margin-top: 10px;
+  color: #50baa9;
+  font-size: 72px;
+}
+.io {
+  margin-top: 10px;
+  color: #ff6600;
+  font-size: 72px;
+}
+.logo2 {
+  margin-top: 30px;
+}
+.realprop {
+  margin-top: 0;
+  padding-top: 0;
+  color: #a9a9a9;
+  font-size: 24px;
+}
+.name {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
